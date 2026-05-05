@@ -35,7 +35,7 @@ export default function Navbar() {
             className="flex items-center gap-1.5 text-zinc-400 hover:text-white font-label-caps text-[10px] uppercase tracking-widest transition-colors duration-300"
           >
             <HiOutlineDocumentDownload className="w-4 h-4" />
-            <span className="hidden sm:inline">Resume</span>
+            <span>Resume</span>
           </a>
 
           <a
