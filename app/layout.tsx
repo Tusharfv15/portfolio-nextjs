@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tushar Parsai — AI Engineer & Full Stack Developer",
+  title: "Tushar Parsai — AI Research Engineer",
   description:
     "Portfolio of Tushar Parsai, B.Tech CS student at IIIT Pune specializing in AI/ML and full-stack development.",
 };

@@ -7,7 +7,7 @@ export const personalInfo = {
   github: "https://github.com/Tusharfv15",   // TODO: add full GitHub URL
   leetcode: "https://leetcode.com/u/___Tushar___/", // TODO: add full LeetCode URL
   resumeUrl: "https://drive.google.com/file/d/1SH_np60oLXsIeu5AsYqD5I_4lryWwJ3V/view", // TODO: add Google Drive resume link
-  heroLabel: "AI Engineer & Full Stack Developer",
+  heroLabel: "AI Research Engineer",
   heroTagline:
     "Building at the intersection of AI research and production engineering. From multi-agent LLM systems to training and fine-tuning models for real-world use cases, I turn research into deployed, scalable software.",
 };
