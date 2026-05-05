@@ -2,9 +2,9 @@ import { experience } from "@/data/portfolio";
 
 export default function Experience() {
   return (
-    <section className="py-section-padding px-8" id="experience">
+    <section className="py-16 md:py-section-padding px-4 md:px-8" id="experience">
       <div className="max-w-7xl mx-auto reveal-on-scroll">
-        <h2 className="font-h1 text-h1 text-white mb-stack-lg">Professional Journey</h2>
+        <h2 className="font-h1 text-3xl md:text-h1 text-white mb-stack-lg">Professional Journey</h2>
 
         <div className="relative space-y-0">
           {/* Animated vertical line */}

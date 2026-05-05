@@ -38,6 +38,13 @@
   transition: all 0.5s ease;
 }
 
+@media (hover: none) {
+  .project-details {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .parallax-card {
   will-change: transform;
 }

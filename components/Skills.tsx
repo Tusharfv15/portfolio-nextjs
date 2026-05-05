@@ -45,11 +45,11 @@ const SKILL_ICONS: Record<string, IconType> = {
 
 export default function Skills() {
   return (
-    <section className="py-section-padding px-8 bg-surface-container-lowest" id="skills">
+    <section className="py-16 md:py-section-padding px-4 md:px-8 bg-surface-container-lowest" id="skills">
       <div className="max-w-7xl mx-auto reveal-on-scroll">
         <div className="grid grid-cols-12 gap-gutter items-start">
-          <div className="col-span-12 md:col-span-4 sticky top-32">
-            <h2 className="font-h1 text-h1 text-white">Technical Arsenal</h2>
+          <div className="col-span-12 md:col-span-4 md:sticky md:top-32">
+            <h2 className="font-h1 text-3xl md:text-h1 text-white">Technical Arsenal</h2>
             <p className="text-outline mt-4 font-body-md">
               A curated stack of technologies I use to build and deploy intelligent systems.
             </p>

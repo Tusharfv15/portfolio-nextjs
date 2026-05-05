@@ -4,10 +4,10 @@ const PORTRAIT_URL = "/Portrait.jpeg"
 
 export default function About() {
   return (
-    <section className="py-section-padding px-8 bg-surface-container-lowest" id="about">
+    <section className="py-16 md:py-section-padding px-4 md:px-8 bg-surface-container-lowest" id="about">
       <div className="max-w-7xl mx-auto grid grid-cols-12 gap-gutter items-center reveal-on-scroll">
         <div className="col-span-12 md:col-span-5 order-2 md:order-1">
-          <h2 className="font-h1 text-h1 text-white mb-stack-md">
+          <h2 className="font-h1 text-3xl md:text-h1 text-white mb-stack-md">
             Engineering with <br />
             <span className="text-primary">Intentionality.</span>
           </h2>

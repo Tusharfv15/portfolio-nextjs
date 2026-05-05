@@ -3,10 +3,10 @@ import { SiGithub } from "react-icons/si";
 
 export default function Projects() {
   return (
-    <section className="py-section-padding px-8 overflow-hidden" id="projects">
+    <section className="py-16 md:py-section-padding px-4 md:px-8 overflow-hidden" id="projects">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-end mb-stack-lg reveal-on-scroll">
-          <h2 className="font-h1 text-h1 text-white">Selected Works</h2>
+          <h2 className="font-h1 text-3xl md:text-h1 text-white">Selected Works</h2>
           <span className="font-label-caps text-outline">2024 – 2026</span>
         </div>
 
@@ -28,7 +28,7 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
 
-              <div className="p-8">
+              <div className="p-4 md:p-8">
                 <div className="flex justify-between items-start mb-4">
                   <h3 className="font-h2 text-h2 text-white">{project.title}</h3>
                   <div className="flex items-center gap-4">
