@@ -86,8 +86,8 @@ export const projects: Project[] = [
     live: "#",
     image:'/finance.png',
     aspect: "aspect-[16/9]",
-    gridClass: "col-span-12 md:col-span-5 md:col-start-8 md:mt-32",
-    speed: "0.1",
+    gridClass: "col-span-12 md:col-span-7",
+    speed: "0.05",
   },
   {
     title: "BRS: Business Reliability Score",
@@ -99,8 +99,9 @@ export const projects: Project[] = [
     image:
       "/brs-image.png",
     aspect: "aspect-[16/10]",
-    gridClass: "col-span-12 md:col-span-7 md:col-start-3 md:mt-20",
-    speed: "0.06",
+    gridClass: "col-span-12 md:col-span-5 md:col-start-8 md:mt-32",
+
+    speed: "0.1",
   },
    {
     title: "ResNet Audio Classifier",
@@ -111,8 +112,8 @@ export const projects: Project[] = [
     live: "#",
     image: "/resnet.png",
     aspect: "aspect-[16/10]",
-    gridClass: "col-span-12 md:col-span-7",
-    speed: "0.05",
+    gridClass: "col-span-12 md:col-span-7 md:col-start-3 md:mt-20",
+    speed: "0.06",
   }
 ];
 
