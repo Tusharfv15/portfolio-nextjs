@@ -79,8 +79,7 @@ export const projects: Project[] = [
  
   {
     title: "Financial Document Insights Engine",
-    description:
-      "Financial document insights engine with Docling OCR on Modal serverless GPU. Features a Planner → Extractor → Router → Code Generator → Sandboxed Executor pipeline for precise decimal inference, plus RAG mode with custom chunking and Pinecone retrieval.",
+    description: "Financial document insights engine powered by Docling OCR on Modal serverless GPUs. Features a Planner → Extractor → Router → Code Generator → Sandboxed Executor pipeline that accurately interprets complex financial PDFs with highly variable layouts, correlates information across multiple pages and sections, and performs precise financial reasoning to answer user queries. Includes a RAG mode with custom chunking and Pinecone retrieval for enhanced document understanding.",
     tags: ["Python", "Docling", "Streamlit", "Pinecone"],
     github: "https://github.com/Tusharfv15/financial-doc-analyzer",
     live: "#",
