@@ -76,18 +76,7 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
-    title: "ResNet Audio Classifier",
-    description:
-      "ResNet-based audio CNN trained from scratch in PyTorch achieving 83.75% accuracy on ESC-50 using Mixup, SpecAugment, AdamW, and OneCycleLR. Deployed via FastAPI on Modal serverless GPU (A10G) with a TypeScript dashboard for visualizing convolutional activations.",
-    tags: ["PyTorch", "TypeScript", "FastAPI", "TensorBoard"],
-    github: "https://github.com/Tusharfv15/resnet-audio-visualizer-frontend",
-    live: "#",
-    image: "/resnet.png",
-    aspect: "aspect-[16/10]",
-    gridClass: "col-span-12 md:col-span-7",
-    speed: "0.05",
-  },
+ 
   {
     title: "Financial Document Insights Engine",
     description:
@@ -103,7 +92,7 @@ export const projects: Project[] = [
   {
     title: "BRS: Business Reliability Score",
     description:
-      "Four-stage pipeline that scores a small business using Google Maps signals, then deploys an LLM agent (OpenAI function calling) to detect review manipulation: fake reviewer profiling, temporal spam bursts, and TF-IDF content similarity. Produces a credit risk narrative with an embedded HTML report.",
+      "Four-stage pipeline that scores a small business using Google Maps signals, then uses an AI agent to detect review manipulation: (tools used by the agent - fake reviewer profiling, temporal spam bursts, and TF-IDF content similarity, custom tools that the agent can define and execute if needed). Produces a credit risk narrative with an embedded HTML report.",
     tags: ["Python", "OpenAI", "Scikit-Learn", "Pandas", "Google Places API"],
     github: "https://github.com/Tusharfv15/brs-scoring-pipeline-with-anomaly-detection",
     live: "#",
@@ -113,6 +102,18 @@ export const projects: Project[] = [
     gridClass: "col-span-12 md:col-span-7 md:col-start-3 md:mt-20",
     speed: "0.06",
   },
+   {
+    title: "ResNet Audio Classifier",
+    description:
+      "ResNet-based audio CNN trained from scratch in PyTorch achieving 83.75% accuracy on ESC-50 using Mixup, SpecAugment, AdamW, and OneCycleLR. Deployed via FastAPI on Modal serverless GPU (A10G) with a TypeScript dashboard for visualizing convolutional activations.",
+    tags: ["PyTorch", "TypeScript", "FastAPI", "TensorBoard"],
+    github: "https://github.com/Tusharfv15/resnet-audio-visualizer-frontend",
+    live: "#",
+    image: "/resnet.png",
+    aspect: "aspect-[16/10]",
+    gridClass: "col-span-12 md:col-span-7",
+    speed: "0.05",
+  }
 ];
 
 export const achievements: string[] = [
